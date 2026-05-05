@@ -206,10 +206,10 @@ const rawProjects = [
       alt: "Massimo De Carlo cover"
     },
     gallery: [
-      { type: "video", scr: "/media/mdc/01.mp4", },
-      { type: "video", scr: "/media/mdc/02.mp4", },
-      { type: "image", scr: "/media/mdc/03.jpg", },
-      { type: "image", scr: "/media/mdc/04.jpg", },
+      { type: "video", src: "/media/mdc/01.mp4", },
+      { type: "video", src: "/media/mdc/02.mp4", },
+      { type: "image", src: "/media/mdc/03.jpg", },
+      { type: "image", src: "/media/mdc/04.jpg", },
     ]
   },
 ];
