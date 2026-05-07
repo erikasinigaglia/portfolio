@@ -11,26 +11,29 @@ function MediaRenderer({
 
   console.log(media.src)
 
-  if (media.type === "video") {
+  if (media.type === "video" || media.type === "hls") {
     return (
-      // <div style="position: relative;">
-        <video
-          className={className}
+      <video
+        className={className}
+        muted
+        loop
+        playsInline
+        autoPlay={autoPlay}
+        preload={priority === "high" ? "auto" : "metadata"}
+        poster={media.poster || DEFAULT_VIDEO_POSTER}
+        aria-label={media.alt || "Project video"}
+      >
+        <source
           src={media.src}
-          muted
-          loop
-          playsInline
-          autoPlay={autoPlay}
-          preload={priority === "high" ? "auto" : "metadata"}
-          poster={media.poster || DEFAULT_VIDEO_POSTER}
-          aria-label={media.alt || "Project video"}
-          />
-          /* <img src={media.poster || DEFAULT_VIDEO_POSTER} style="position: absolute; width: 100%; height: 100%;">
-          </img> */
-      // </div>
+          type={
+            media.type === "hls"
+              ? "application/x-mpegURL"
+              : "video/mp4"
+          }
+        />
+      </video>
     );
   }
-
   return (
     <img
       className={className}

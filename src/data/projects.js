@@ -60,7 +60,8 @@ const rawProjects = [
       alt: "Camperlab cover"
     },
     gallery: [
-      { type: "video", src: "./media/camperlab/01.mp4", poster: "./media/camperlab/01-poster.webp" },
+      // { type: "video", src: "./media/camperlab/01.mp4", poster: "./media/camperlab/01-poster.webp" },
+      { type: "hls", src: "https://vz-90e2339e-a8a.b-cdn.net/85e245eb-0ea5-4a5f-8a4f-043508af6d7d/playlist.m3u8", poster: "./media/camperlab/01-poster.webp" },
       { type: "video", src: "./media/camperlab/02.mp4", poster: "./media/camperlab/02-poster.webp" },
       { type: "image", src: "./media/camperlab/03.webp", },
       { type: "video", src: "./media/camperlab/04.mp4", poster: "./media/camperlab/04-poster.webp" },

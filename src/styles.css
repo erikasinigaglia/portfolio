@@ -389,7 +389,8 @@ a:hover {
   }
 
   .expanded-panel {
-    width: 90vw;
+    width: 100vw;
+    padding-inline: 8px;
   }
 
   .expanded-media-hitarea {
