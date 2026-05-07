@@ -71,12 +71,13 @@ function ExpandedGallery({
     window.addEventListener("keydown", onKeyDown);
     return () => window.removeEventListener("keydown", onKeyDown);
   }, [onClose, onNext, onPrevious]);
-
+  
   function onPanelClick(event) {
-    if (isExiting) return;
-
+    if (event.target.tagName === "VIDEO") return;
+  
     const bounds = event.currentTarget.getBoundingClientRect();
     const isLeft = event.clientX - bounds.left < bounds.width / 2;
+  
     if (isLeft) onPrevious();
     else onNext();
   }

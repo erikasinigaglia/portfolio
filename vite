@@ -1,0 +1,13 @@
+
+
+  VITE v5.4.21  ready in 152 ms
+
+  ➜  Local:   http://localhost:5173/portfolio/
+  ➜  Network: http://192.168.1.36:5173/portfolio/
+  ➜  press h + enter to show help
+5:22:19 PM [vite] hmr update /src/App.jsx
+5:22:20 PM [vite] hmr update /src/App.jsx (x2)
+5:23:21 PM [vite] hmr update /src/App.jsx (x3)
+5:26:12 PM [vite] hmr update /src/App.jsx (x4)
+5:30:09 PM [vite] hmr update /src/components/MediaRenderer.jsx
+5:31:04 PM [vite] hmr update /src/components/MediaRenderer.jsx (x2)
