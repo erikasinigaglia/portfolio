@@ -77,16 +77,16 @@ const rawProjects = [
     widthClass: "media-w-2",
     cover: {
       type: "image",
-      src: "/media/loewe/cover.jpg",
+      src: "./media/loewe/cover.jpg",
       alt: "Loewe Craft Prize 2025 cover"
     },
     gallery: [
-      { type: "video", src: "/media/loewe/01.mp4", poster: "/media/loewe/01-poster.jpg"},
-      { type: "video", src: "/media/loewe/02.mp4", poster: "/media/loewe/02-poster.jpg"},
-      { type: "image", src: "/media/loewe/03.jpg", },
-      { type: "video", src: "/media/loewe/04.mov", poster: "/media/loewe/04-poster.jpg"},
-      { type: "video", src: "/media/loewe/05.mp4", poster: "/media/loewe/05-poster.jpg"},
-      { type: "image", src: "/media/loewe/06.jpg", },
+      { type: "video", src: "./media/loewe/01.mp4", poster: "./media/loewe/01-poster.jpg"},
+      { type: "video", src: "./media/loewe/02.mp4", poster: "./media/loewe/02-poster.jpg"},
+      { type: "image", src: "./media/loewe/03.jpg", },
+      { type: "video", src: "./media/loewe/04.mov", poster: "./media/loewe/04-poster.jpg"},
+      { type: "video", src: "./media/loewe/05.mp4", poster: "./media/loewe/05-poster.jpg"},
+      { type: "image", src: "./media/loewe/06.jpg", },
     ]
   },
   {
@@ -99,16 +99,16 @@ const rawProjects = [
     widthClass: "media-w-1",
     cover: {
       type: "video",
-      src: "/media/ottolinger/cover.mp4",
-      poster: "/media/ottolinger/cover-poster.jpg",
+      src: "./media/ottolinger/cover.mp4",
+      poster: "./media/ottolinger/cover-poster.jpg",
       alt: "Ottolinger cover"
     },
     gallery: [
-      { type: "image", src: "/media/ottolinger/01.jpg" },
-      { type: "video", src: "/media/ottolinger/02.mp4", poster: "/media/ottolinger/02-poster.jpg" },
-      { type: "image", src: "/media/ottolinger/03.jpg" },
-      { type: "video", src: "/media/ottolinger/04.mp4", poster: "/media/ottolinger/04-poster.jpg" },
-      { type: "image", src: "/media/ottolinger/05.jpg" },
+      { type: "image", src: "./media/ottolinger/01.jpg" },
+      { type: "video", src: "./media/ottolinger/02.mp4", poster: "./media/ottolinger/02-poster.jpg" },
+      { type: "image", src: "./media/ottolinger/03.jpg" },
+      { type: "video", src: "./media/ottolinger/04.mp4", poster: "./media/ottolinger/04-poster.jpg" },
+      { type: "image", src: "./media/ottolinger/05.jpg" },
     ]
   },
   {
@@ -121,16 +121,16 @@ const rawProjects = [
     widthClass: "media-w-4",
     cover: {
       type: "image",
-      src: "/media/valentinacameranesi/cover.jpg",
+      src: "./media/valentinacameranesi/cover.jpg",
       alt: "Valentina Cameranesi Sgroi cover"
     },
     gallery: [
-      { type: "video", src: "/media/valentinacameranesi/01.mp4", poster: "/media/valentinacameranesi/01-poster.jpg" },
-      { type: "image", src: "/media/valentinacameranesi/02.jpg", },
-      { type: "image", src: "/media/valentinacameranesi/03.jpg", },
-      { type: "video", src: "/media/valentinacameranesi/04.mp4", poster: "/media/valentinacameranesi/04-poster.jpg"},
-      { type: "image", src: "/media/valentinacameranesi/05.jpg", },
-      { type: "image", src: "/media/valentinacameranesi/06.jpg", },
+      { type: "video", src: "./media/valentinacameranesi/01.mp4", poster: "./media/valentinacameranesi/01-poster.jpg" },
+      { type: "image", src: "./media/valentinacameranesi/02.jpg", },
+      { type: "image", src: "./media/valentinacameranesi/03.jpg", },
+      { type: "video", src: "./media/valentinacameranesi/04.mp4", poster: "./media/valentinacameranesi/04-poster.jpg"},
+      { type: "image", src: "./media/valentinacameranesi/05.jpg", },
+      { type: "image", src: "./media/valentinacameranesi/06.jpg", },
     ]
   },
   {
@@ -143,17 +143,17 @@ const rawProjects = [
     widthClass: "media-w-3",
     cover: {
       type: "video",
-      src: "media/cctapis/cover.mp4",
-      poster: "/media/cctapis/cover-poster.jpg",
+      src: "./media/cctapis/cover.mp4",
+      poster: "./media/cctapis/cover-poster.jpg",
       alt: "cc-tapis cover"
     },
     gallery: [
-      { type: "video", src: "media/cctapis/01.mp4", poster: "/media/cctapis/01-poster.jpg"},
-      { type: "video", src: "media/cctapis/02.mp4", poster: "/media/cctapis/02-poster.jpg"},
-      { type: "video", src: "media/cctapis/03.mp4", poster: "/media/cctapis/03-poster.jpg"},
-      { type: "image", src: "media/cctapis/04.jpg", },
-      { type: "video", src: "media/cctapis/05.mp4", poster: "/media/cctapis/05-poster.jpg"},
-      { type: "video", src: "media/cctapis/06.mp4", poster: "/media/cctapis/06-poster.jpg"},
+      { type: "video", src: "./media/cctapis/01.mp4", poster: "./media/cctapis/01-poster.jpg"},
+      { type: "video", src: "./media/cctapis/02.mp4", poster: "./media/cctapis/02-poster.jpg"},
+      { type: "video", src: "./media/cctapis/03.mp4", poster: "./media/cctapis/03-poster.jpg"},
+      { type: "image", src: "./media/cctapis/04.jpg", },
+      { type: "video", src: "./media/cctapis/05.mp4", poster: "./media/cctapis/05-poster.jpg"},
+      { type: "video", src: "./media/cctapis/06.mp4", poster: "./media/cctapis/06-poster.jpg"},
     ]
   },
   {
@@ -166,16 +166,16 @@ const rawProjects = [
     widthClass: "media-w-4",
     cover: {
       type: "image",
-      src: "media/nm3/cover.jpg",
+      src: "./media/nm3/cover.jpg",
       alt: "NM3 cover"
     },
     gallery: [
-      { type: "video", src: "/media/nm3/01.mp4", poster: "/media/nm3/01-poster.jpg" },
-      { type: "image", src: "/media/nm3/02.jpg" },
-      { type: "image", src: "/media/nm3/03.jpg" },
-      { type: "video", src: "/media/nm3/04.mp4", poster: "/media/nm3/04-poster.jpg" },
-      { type: "image", src: "/media/nm3/05.jpg" },
-      { type: "image", src: "/media/nm3/06.jpg" },
+      { type: "video", src: "./media/nm3/01.mp4", poster: "./media/nm3/01-poster.jpg" },
+      { type: "image", src: "./media/nm3/02.jpg" },
+      { type: "image", src: "./media/nm3/03.jpg" },
+      { type: "video", src: "./media/nm3/04.mp4", poster: "./media/nm3/04-poster.jpg" },
+      { type: "image", src: "./media/nm3/05.jpg" },
+      { type: "image", src: "./media/nm3/06.jpg" },
     ]
   },
   {
@@ -186,13 +186,13 @@ const rawProjects = [
     widthClass: "media-w-3",
     cover: {
       type: "video",
-      src: "media/truecolor/cover.mov",
-      poster: "/media/truecolor/cover-poster.jpg",
+      src: "./media/truecolor/cover.mov",
+      poster: "./media/truecolor/cover-poster.jpg",
       alt: "Truecolor cover"
     },
     gallery: [
-      { type: "video", src: "/media/truecolor/01.mov", poster: "/media/truecolor/01-poster.jpg" },
-      { type: "video", src: "/media/truecolor/02.mov", poster: "/media/truecolor/02-poster.jpg" },
+      { type: "video", src: "./media/truecolor/01.mov", poster: "./media/truecolor/01-poster.jpg" },
+      { type: "video", src: "./media/truecolor/02.mov", poster: "./media/truecolor/02-poster.jpg" },
     ]
   },
   {
@@ -204,16 +204,16 @@ const rawProjects = [
     widthClass: "media-w-4",
     cover: {
       type: "video",
-      src: "media/onsitestudio/cover.mp4",
-      poster: "/media/onsitestudio/cover-poster.jpg",
+      src: "./media/onsitestudio/cover.mp4",
+      poster: "./media/onsitestudio/cover-poster.jpg",
       alt: "Onsitestudio cover"
     },
     gallery: [
-      { type: "image", src: "/media/onsitestudio/01.jpg", },
-      { type: "image", src: "/media/onsitestudio/02.jpg", },
-      { type: "image", src: "/media/onsitestudio/03.jpg", },
-      { type: "image", src: "/media/onsitestudio/04.jpg", },
-      { type: "image", src: "/media/onsitestudio/05.jpg", },
+      { type: "image", src: "./media/onsitestudio/01.jpg", },
+      { type: "image", src: "./media/onsitestudio/02.jpg", },
+      { type: "image", src: "./media/onsitestudio/03.jpg", },
+      { type: "image", src: "./media/onsitestudio/04.jpg", },
+      { type: "image", src: "./media/onsitestudio/05.jpg", },
     ]
   },
   {
@@ -224,15 +224,15 @@ const rawProjects = [
     year: 2023,
     cover: {
       type: "video",
-      src: "media/mdc/cover.mp4",
-      poster: "/media/mdc/cover-poster.jpg",
+      src: "./media/mdc/cover.mp4",
+      poster: "./media/mdc/cover-poster.jpg",
       alt: "Massimo De Carlo cover"
     },
     gallery: [
-      { type: "video", src: "/media/mdc/01.mp4", poster: "/media/mdc/01-poster.jpg" },
-      { type: "video", src: "/media/mdc/02.mp4", poster: "/media/mdc/02-poster.jpg" },
-      { type: "image", src: "/media/mdc/03.jpg", },
-      { type: "image", src: "/media/mdc/04.jpg", },
+      { type: "video", src: "./media/mdc/01.mp4", poster: "./media/mdc/01-poster.jpg" },
+      { type: "video", src: "./media/mdc/02.mp4", poster: "./media/mdc/02-poster.jpg" },
+      { type: "image", src: "./media/mdc/03.jpg", },
+      { type: "image", src: "./media/mdc/04.jpg", },
     ]
   },
 ];
